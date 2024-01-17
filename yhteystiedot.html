@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+
+<html lang="fi">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Makumaailma Ravintola</title>
+  <link rel="stylesheet" href="styles.css"> <!--Linkitys CSS-tiedostoon-->
+
+
+</head>
+
+<body>
+
+ 
+
+  <header>
+
+    <!-- Kuva näkyy tässä headerissä -->
+
+    <img id="header-image" src="C:\Users\mirak\OneDrive - Hämeen ammattikorkeakoulu\Työpöytä\Web kehitys\thumbnail_kuva.jpg" alt="Header Kuva">
+
+ 
+
+</header>
+
+ 
+
+  <main>
+
+    <div id="contact-info">
+
+      <h2>Yhteystiedot</h2>
+
+      <p>📍 Osoite: Makulankatu 123, 99870</p>
+
+      <p>☎️ Puhelin: +358 12 345 6789</p>
+
+      <p>✉️ Sähköposti: info@makumaailma.fi</p>
+
+    </div>
+
+ 
+
+    <div id="contact-form">
+
+      <h2>Ota yhteyttä</h2>
+
+      <form action="process_form.php" method="post">
+
+        <label for="name">Nimi:</label>
+
+        <input type="text" id="name" name="name" required>
+
+ 
+
+        <label for="email">Sähköposti:</label>
+
+        <input type="email" id="email" name="email" required>
+
+ 
+
+        <label for="message">Viesti:</label>
+
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+ 
+
+        <input type="submit" value="Lähetä viesti">
+
+      </form>
+
+    </div>
+    <div class="buttons">
+      <a href="etusivu.html" class="button">Etusivu</a>
+      <a href="menu.html" class="button">Menu</a>
+      <a href="juhlat.html" class="button">Juhlat ja kokoukset</a>
+      <a href="yhteystiedot.html" class="button">Yhteystiedot</a>
+    </div>
+
+  </main>
+
+ 
+
+</body>
+
+</html>
