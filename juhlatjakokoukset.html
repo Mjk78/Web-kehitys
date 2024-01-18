@@ -9,7 +9,7 @@
         body{
             background-color: #de8419;  
             color: white;
-            font-family: "Arial", sans-serif;
+            font-family: "Inter", sans-serif;
         }
         .header {
             background-image: url("https://cdn.pixabay.com/photo/2020/04/17/12/49/barista-5055060_1280.jpg");
@@ -28,6 +28,33 @@
             font-size: 48px; /* Aseta fonttikoko pikseleinä */
             transform: translateY(-50%); /* Keskennä teksti suhteessa omaan korkeuteensa */
             color: white;
+        }
+
+        .button {
+ 
+            margin: 0 10px; /* Lisätty marginaali painikkeiden väliin */
+
+            text-decoration: none;
+
+            color: white;
+
+            padding: 10px;
+
+            border: none;
+            border-radius: 5px; /*pieni reunus napin ympärille*/
+            background-color: transparent;
+            transition: color 0.3s;
+
+        }
+
+
+
+        .button:hover {
+
+            background-color: white;
+
+            color: black;
+
         }
         
         section {
@@ -56,16 +83,18 @@
     </style>
 </head>
 <body>
+    <div class="buttons">
     <div class="header">
     <div class ="header-text">
         <h1>Juhlat ja kokoukset</h1>
       </div>
     </div>
+    </div>
     <nav>
-        <a href="index.html">Etusivu</a>
-        <a href="menu.html">Menu</a>
-        <a href="juhlatjakokoukset.html">Juhlat ja kokoukset</a>
-        <a href="yhteystiedot.html">Yhteystiedot</a>
+        <a href="index.html" class="button">Etusivu</a>
+        <a href="menu.html" class="button">Menu</a>
+        <a href="huhlatjakokoukset.html" class="button">Juhlat ja kokoukset</a>
+        <a href="yhteystiedot.html" class="button">Yhteystiedot</a>
     </nav>
     <section class="row">
         <article class ="col-lg-6">
