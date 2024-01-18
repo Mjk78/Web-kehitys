@@ -27,17 +27,41 @@
       color: white;
 }
     
-.buttons a {
+ .buttons {
 
-      display: inline-block;
-      padding: 10px 20px;
-      margin: 5px;
-      background-color: #DE8419; /* Oranssi taustaväri */
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 5px;
-    }
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
+ 
+  }
+ 
+   
+ 
+  .button {
+ 
+    margin: 0 10px; /* Lisätty marginaali painikkeiden väliin */
+ 
+    text-decoration: none;
+ 
+    color: white;
+ 
+    padding: 10px;
+ 
+    border: none;
+    border-radius: 5px; /*pieni reunus napin ympärille*/
+    background-color: transparent;
+    transition: color 0.3s;
+ 
+  }
+ 
+   
+ 
+  .button:hover {
+ 
+    background-color: white;
+ 
+    color: black;
 
     .menu-section {
 
