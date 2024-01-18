@@ -55,7 +55,7 @@ body { /* asetukset koko sivulle*/
   .buttons {
 
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
  
