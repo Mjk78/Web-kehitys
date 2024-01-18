@@ -1,0 +1,113 @@
+body { /* asetukset koko sivulle*/
+
+    font-family: Arial, sans-serif;
+ 
+    margin: 0;
+ 
+    padding: 0;
+ 
+    background-color: #DE8419;
+ 
+    color: white;
+ 
+  }
+ 
+   
+ 
+  header {
+    /* yläpalkin tyyli*/
+ 
+    text-align: center; /* teksti keskitetään vaakasuunnassa*/
+ 
+    padding: 20px; /* sisäinen täyte 20 pikseliä*/
+ 
+  }
+ 
+   
+ 
+  #header-image { /* yläyunnisteessa olevan kuvan tyyli*/
+ 
+    width: 100%;
+ 
+    height: 60vh;
+ 
+    object-fit: cover;
+ 
+  }
+ 
+   
+ 
+  main { /* pääsisällön tyyli*/
+ 
+    display: flex;
+ 
+    justify-content: column;
+    align-items: center;
+    margin: 20px;
+ 
+  }
+ 
+  .full-width-image {
+    position: relative;
+  }
+
+ 
+  .buttons {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
+ 
+  }
+ 
+   
+ 
+  .button {
+ 
+    margin: 0 10px; /* Lisätty marginaali painikkeiden väliin */
+ 
+    text-decoration: none;
+ 
+    color: white;
+ 
+    padding: 10px;
+ 
+    border: none;
+    border-radius: 5px; /*pieni reunus napin ympärille*/
+    background-color: transparent;
+    transition: color 0.3s;
+ 
+  }
+ 
+   
+ 
+  .button:hover {
+ 
+    background-color: white;
+ 
+    color: black;
+ 
+  }
+  .image-container {
+    
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+
+  }
+
+
+
+  img {
+
+    width: 100%;
+    max-height: 40vh;
+    object-fit: cover; /*kuvan tarkkuus*/
+    height: auto;
+    display: block;
+
+  }
+
+  

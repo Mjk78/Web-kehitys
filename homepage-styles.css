@@ -1,0 +1,88 @@
+
+body 
+
+    .full-width-image {
+      position: relative;
+    }
+
+   
+    .buttons a {
+      display: inline-block;
+      padding: 5px 10px;
+      margin: 2px;
+      margin-top: -90px;
+      background-color: #DE8419;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    .menu-section {
+      text-align: center;
+      background-color: #DE8419;
+      padding: 20px;
+      margin: 10px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: auto;
+    }
+
+    .image-container {
+      margin-top: 20px; /* Säädä tarpeen mukaan */
+      margin-bottom: 60px; /* Säädä tarpeen mukaan */
+      position: relative; /* Lisää suhteellinen sijoittelu */
+      z-index: 0; /* Aseta kuva taustalle */
+    }
+
+    .tervetuloa {
+  text-align: center;
+  margin-top: 5px;
+  position: relative;
+}
+
+.tervetuloa p {
+  font-size: 36px;
+  position: relative;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Lisää media queryjä tarpeen mukaan */
+@media screen and (max-width: 768px) {
+      .image-text {
+        right: 2%;
+        font-size: 6vw;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .image-text {
+        right: 1%;
+        font-size: 8vw;
+      }
+    }
+    /* Lisää media queryjä tarpeen mukaan */
+    @media screen and (max-width: 768px) {
+      .image-text,
+      .buttons {
+        top: 30px;
+      }
+
+      .image-text {
+        font-size: 4vw;
+      }
+
+      .buttons a {
+        font-size: 2vw;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .image-text {
+        font-size: 6vw;
+      }
+    }
