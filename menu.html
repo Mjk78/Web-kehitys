@@ -1,115 +1,127 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Menu</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-  <style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Menu</title>
+    <style>
 
    
 
-    body {
-
-      background-color: #DE8419; /* Sivun taustaväri */
-      color: white;
-      font-family:Arial, sans-serif;
-    }
+     body {
     
-.image-text {
-
-      position: absolute;
-      top: 25%; /* Aseta 50% kuvan yläreunasta */
-      right: 100px; /* Aseta vasemmalta 10 pikseliä */
-      font-size: 48px; /* Aseta fonttikoko pikseleinä */
-      transform: translateY(-50%); /* Keskennä teksti suhteessa omaan korkeuteensa */
-      color: white;
-}
+          background-color: #DE8419; /* Sivun taustaväri */
+          color: white;
+          font-family:Arial, sans-serif;
+        }
+        
+    .image-text {
     
+          position: absolute;
+          top: 25%; /* Aseta 50% kuvan yläreunasta */
+          right: 100px; /* Aseta vasemmalta 10 pikseliä */
+          font-size: 48px; /* Aseta fonttikoko pikseleinä */
+          transform: translateY(-50%); /* Keskennä teksti suhteessa omaan korkeuteensa */
+          color: white;
+         }
+        
+    .buttons {
 
-  .button {
- 
-    margin: 0 10px; /* Lisätty marginaali painikkeiden väliin */
- 
-    text-decoration: none;
- 
-    color: white;
- 
-    padding: 10px;
- 
-    border: none;
-    border-radius: 5px; /*pieni reunus napin ympärille*/
-    background-color: transparent;
-    transition: color 0.3s;
- 
-  }
- 
-   
- 
-  .button:hover {
- 
-    background-color: white;
- 
-    color: black;
-  }
-    
+         display: flex;
+        justify-content: left-start;
+        align-items: flex-start;
+        margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
+         }
+
+
+    .button {
+     
+        margin: 0 10px; /* Lisätty marginaali painikkeiden väliin */
+     
+        text-decoration: none;
+     
+        color: white;
+     
+        padding: 10px;
+     
+        border: none;
+        border-radius: 5px; /*pieni reunus napin ympärille*/
+        background-color: transparent;
+        transition: color 0.3s;
+     
+      }
+     
+       
+     
+    .button:hover {
+     
+        background-color: white;
+     
+        color: black;
+      }
+        
     .menu-section {
-
-  text-align: center;
-  background-color: #DE8419;
-  padding: 20px;
-  margin: 10px;
-}
-  </style>
-</head>
-
-<body>
-
-  <div class="full-width-image">
-    <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg" alt="Ruoka-annoksesta kuva" style="width: 100%; height: 40em"> 
-    <div class="image-text">
-      <p>MENU</p>
-    </div>
-
-    <div class="buttons">
+    
+        text-align: center;
+        background-color: #DE8419;
+        padding: 20px;
+        margin: 10px;
+    }
+      </style>
+    </head>
+    
+    <body>
+    
+      <div class="full-width-image">
+        <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg" alt="Ruoka-annoksesta kuva" style="width: 100%; height: 40em"> 
+        <div class="image-text">
+          <p>MENU</p>
+        </div>
+    
+        <div class="buttons">
+          
+          <a href="index.html" class="button">Etusivu</a>
       
-      <a href="index.html" class="button">Etusivu</a>
-  
-      <a href="menu.html" class="button">Menu</a>
-
-      <a href="juhlatjakokoukset.html" class="button">Juhlat ja kokoukset</a>
-
-      <a href="yhteystiedot.html" class="button">Yhteystiedot</a>
-
-    </div>
-  </div>
-
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="menu-section">
-          <h2>Alkuruoat</h2>
-          <p>Quisque vel arcu cursus, tincidunt dui vel, tincidunt turpis.</p>
-          <p>Phasellus cursus massa ut iaculis congue.</p>
-        </div>
-
-        <div class="menu-section">
-          <h2>Pääruoat</h2>
-          <p>Duis sodales leo et nisi sagittis pellentesque </p>
-          <p>Donec blandit tellus id congue commodo </p>
-          <p> Etiam vestibulum sapien vel orci dignissim, eget eleifend ipsum feugiat.</p>
-        </div>
-
-        <div class="menu-section">
-          <h2>Jälkiruoat</h2>
-          <p>Cras in dolor condimentum, imperdiet libero eu, lacinia velit</p>
-          <p> Donec in mi ac massa porta tempor</p>
+          <a href="menu.html" class="button">Menu</a>
+    
+          <a href="juhlatjakokoukset.html" class="button">Juhlat ja kokoukset</a>
+    
+          <a href="yhteystiedot.html" class="button">Yhteystiedot</a>
+    
         </div>
       </div>
-    </div>
-  </div>
+    
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="menu-section">
+              <h2>Alkuruoat</h2>
+              <p>Quisque vel arcu cursus, tincidunt dui vel, tincidunt turpis.</p>
+              <p>Phasellus cursus massa ut iaculis congue.</p>
+            </div>
+    
+            <div class="menu-section">
+              <h2>Pääruoat</h2>
+              <p>Duis sodales leo et nisi sagittis pellentesque </p>
+              <p>Donec blandit tellus id congue commodo </p>
+              <p> Etiam vestibulum sapien vel orci dignissim, eget eleifend ipsum feugiat.</p>
+            </div>
+    
+            <div class="menu-section">
+              <h2>Jälkiruoat</h2>
+              <p>Cras in dolor condimentum, imperdiet libero eu, lacinia velit</p>
+              <p> Donec in mi ac massa porta tempor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+      
 
-  
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
