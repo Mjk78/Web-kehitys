@@ -1,56 +1,100 @@
 <!DOCTYPE html>
-<html lang="fi">
+<html lang="en">
 <head>
-  <title>Menu2</title>
+  <title>Menu</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Yhteiset tyylit kaikille sivuille -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
 
-<link rel="stylesheet" type="text/css" href="common-styles.css">
+   
 
-<!-- menu tyylit -->
+    body {
 
-<link rel="stylesheet" type="text/css" href="menu-styles.css">
+      background-color: #DE8419; /* Sivun taustaväri */
+      color: white;
+      font-family: "Inter", sans-serif;
+    }
+    
+.image-text {
 
-  
+  position: absolute;
+  top: 70%; /* Aseta 50% kuvan yläreunasta */
+  right: 150px; /* Aseta vasemmalta 10 pikseliä */
+  font-size: 48px; /* Aseta fonttikoko pikseleinä */
+  transform: translateY(-50%); /* Keskennä teksti suhteessa omaan korkeuteensa */
+  color: white;
+}
+    
+.buttons a {
+
+      display: inline-block;
+      padding: 10px 20px;
+      margin: 5px;
+      background-color: #DE8419; /* Oranssi taustaväri */
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 5px;
+    }
+
+    .menu-section {
+
+  text-align: center;
+  background-color: #DE8419;
+  padding: 20px;
+  margin: 10px;
+}
+  </style>
 </head>
 
 <body>
-    
-    <header>
 
-    <div class="full-width-image">
-        <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg" alt="Ruoka-annoksesta kuva">
-        <div class="image-text">
-          <p>MENU</p>
+  <div class="full-width-image">
+    <img src="https://cdn.pixabay.com/photo/2017/01/26/02/06/platter-2009590_1280.jpg" alt="Ruoka-annoksesta kuva" style="width: 100%; height: auto"> 
+    <div class="image-text">
+      <p>MENU</p>
+    </div>
+
+    <div class="buttons">
+      <a href="C:/temp/htmlharjoitus/toinenharjoitus/Etusivu.html" class="btn">Etusivu</a>
+      <a href="#" class="button">Etusivu</a>
+  
+      <a href="#" class="button">Menu</a>
+
+      <a href="#" class="button">Juhlat ja kokoukset</a>
+
+      <a href="#" class="button">Yhteystiedot</a>
+
+    </div>
+  </div>
+
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="menu-section">
+          <h2>Alkuruoat</h2>
+          <p>Quisque vel arcu cursus, tincidunt dui vel, tincidunt turpis.</p>
+          <p>Phasellus cursus massa ut iaculis congue.</p>
         </div>
-    </header>
 
-        <div class="buttons">
-            <a href="#" class="button">Etusivu</a>
-            <a href="#" class="button">Juhlat ja kokoukset</a>
-            <a href="#" class="button">Yhteystiedot</a>
-          </div>
+        <div class="menu-section">
+          <h2>Pääruoat</h2>
+          <p>Duis sodales leo et nisi sagittis pellentesque </p>
+          <p>Donec blandit tellus id congue commodo </p>
+          <p> Etiam vestibulum sapien vel orci dignissim, eget eleifend ipsum feugiat.</p>
+        </div>
 
-  <div class="menu-section">
-    <h2>Alkuruoat</h2>
-    <p>Quisque vel arcu cursus, tincidunt dui vel, tincidunt turpis.</p>
-    <p>Phasellus cursus massa ut iaculis congue.</p>
+        <div class="menu-section">
+          <h2>Jälkiruoat</h2>
+          <p>Cras in dolor condimentum, imperdiet libero eu, lacinia velit</p>
+          <p> Donec in mi ac massa porta tempor</p>
+        </div>
+      </div>
+    </div>
   </div>
 
-  <div class="menu-section">
-    <h2>Pääruoat</h2>
-    <p>Duis sodales leo et nisi sagittis pellentesque </p>
-    <p>Donec blandit tellus id congue commodo </p>
-    <p> Etiam vestibulum sapien vel orci dignissim, eget eleifend ipsum feugiat.</p>
-  </div>
-
-  <div class="menu-section">
-    <h2>Jälkiruoat</h2>
-    <p>Cras in dolor condimentum, imperdiet libero eu, lacinia velit</p>
-    <p> Donec in mi ac massa porta tempor</p>
-  </div>
-
-
+  
 </body>
 </html>
