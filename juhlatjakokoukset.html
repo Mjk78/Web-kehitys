@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Ravintola</title>
+    <style>
+        body{
+            background-color: #de8419;  
+            color: white;
+            font-family: "Inter", sans-serif;
+        }
+        .header {
+            background-image: url("https://cdn.pixabay.com/photo/2020/04/17/12/49/barista-5055060_1280.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            position: relative;
+            background-size: cover;
+            height: 40em;
+            
+        }
+
+        .header-text {
+            position: absolute;
+            top: 50%; /* Aseta 50% kuvan yläreunasta */
+            left: 100px; /* Aseta vasemmalta 10 pikseliä */
+            font-size: 48px; /* Aseta fonttikoko pikseleinä */
+            transform: translateY(-50%); /* Keskennä teksti suhteessa omaan korkeuteensa */
+            color: white;
+        }
+        
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px;
+            padding-left: 2%;
+        }
+        article {
+            border-radius: 5px;
+            margin-bottom: 20px;
+            padding: 20px;
+            width: 30%;
+        }
+        nav a{
+            color: white;
+            padding-left: 2%;
+            
+        }
+        img{
+            max-width: 40em;
+            max-height: 40em;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+    <div class ="header-text">
+        <h1>Juhlat ja kokoukset</h1>
+      </div>
+    </div>
+    <nav>
+        <a href="Etusivu.html">Etusivu</a>
+        <a href="Menu.html">Menu</a>
+        <a href="Juhlatjakokoukset.html">Juhlat ja kokoukset</a>
+        <a href="Yhteystiedot.html">Yhteystiedot</a>
+    </nav>
+    <section class="row">
+        <article class ="col-lg-6">
+            <h2>Juhli kokousta meidän ravintolassa tyylillä ! </h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna vel bibendum bibendum, velit sapien lacinia nunc, vel tincidunt sapien sapien vel nisi. Sed euismod, urna vel bibendum bibendum, velit sapien lacinia nunc, vel tincidunt sapien sapien vel nisi.</p>
+        </article>
+        <article class ="col-lg-6">
+            <h2>Juhliisi sopivat tilat löytyy meiltä !</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, urna vel bibendum bibendum, velit sapien lacinia nunc, vel tincidunt sapien sapien vel nisi. Sed euismod, urna vel bibendum bibendum, velit sapien lacinia nunc, vel tincidunt sapien sapien vel nisi.</p>
+        </article>
+        <article class ="col-lg-6">
+            <h2>Räätälöityjä ratkaisuja pöytiin tarjoiltuna.</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum quis vestibulum leo, a dictum ante. Praesent cursus lectus lorem, et egestas turpis dictum a. Nam congue blandit urna pellentesque placerat. Mauris elementum ipsum in erat aliquam condimentum. Morbi varius feugiat ullamcorper.</p>
+        </article>
+        <article class="col-lg-6">
+            <img src="https://cdn.pixabay.com/photo/2013/12/31/21/47/restaurant-237060_1280.jpg" alt="">
+        </article>
+       
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
