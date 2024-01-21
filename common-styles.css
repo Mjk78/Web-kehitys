@@ -55,8 +55,8 @@ body { /* asetukset koko sivulle*/
   .buttons {
 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
     margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
  
   }
@@ -103,7 +103,7 @@ body { /* asetukset koko sivulle*/
   img {
 
     width: 100%;
-    max-height: 40vh;
+    max-height: 60vh;
     object-fit: cover; /*kuvan tarkkuus*/
     height: auto;
     display: block;
