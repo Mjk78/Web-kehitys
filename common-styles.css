@@ -2,7 +2,8 @@ body { /* asetukset koko sivulle*/
 
     font-family: Arial, sans-serif;
  
-    margin: 0;
+    margin: 20px;
+    margin-top: 30px; /*lisätty marginaali ylös*/
  
     padding: 0;
  
