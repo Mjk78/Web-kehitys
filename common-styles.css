@@ -45,7 +45,7 @@ body { /* asetukset koko sivulle*/
     display: flex;
     justify-content: left;
     align-items: left;
-    margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
+    
  
   }
  
