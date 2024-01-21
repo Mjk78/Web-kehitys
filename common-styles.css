@@ -1,25 +1,19 @@
 body { /* asetukset koko sivulle*/
 
     font-family: Arial, sans-serif;
- 
      margin: 0;
+    padding: 0;
     background-color: #DE8419;
     color: white;
  
   }
  
-   
- 
   header {
     /* yläpalkin tyyli*/
- 
     text-align: center; /* teksti keskitetään vaakasuunnassa*/
- 
     padding: 20px; /* sisäinen täyte 20 pikseliä*/
  
   }
- 
-   
  
   #header-image { /* ylätunnisteessa olevan kuvan tyyli*/
  
@@ -30,8 +24,6 @@ body { /* asetukset koko sivulle*/
     object-fit: cover;
  
   }
- 
-   
  
   main { /* pääsisällön tyyli*/
  
