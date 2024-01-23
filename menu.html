@@ -15,7 +15,7 @@
           color: white;
           font-family:Arial, sans-serif;
           margin: 20px;
-          margin-top: 20px; /*lisätty marginaali ylös*/
+          margin-top: 20px; /*Marginaali ylös*/
         }
         
         
@@ -24,13 +24,13 @@
          display: flex;
         justify-content: left;
         align-items: flex-start;
-        margin-top: 20px; /* Lisätty ylämarginaali navigointipainikkeille */
+        margin-top: 20px; /* Ylämarginaali navigointipainikkeille */
          }
 
 
     .button {
      
-        margin: 0 10px; /* Lisätty marginaali painikkeiden väliin */
+        margin: 0 10px; /* Marginaali painikkeiden väliin */
      
         text-decoration: none;
      
@@ -39,7 +39,7 @@
         padding: 10px;
      
         border: none;
-        border-radius: 5px; /*pieni reunus napin ympärille*/
+        border-radius: 5px; 
         background-color: transparent;
         transition: color 0.3s;
      
@@ -62,6 +62,24 @@
         padding: 20px;
         margin: 10px;
     }
+
+  @media screen and (max-width: 768px) {
+    .buttons {
+        top: 30px;
+      }
+
+      .buttons a {
+        font-size: 2vw;
+      }
+    }
+
+ @media screen and (max-width: 480px) {
+      
+     .buttons a {
+        font-size: 2vw;
+      }
+    }
+
         
       </style>
     </head>
