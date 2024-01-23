@@ -10,6 +10,8 @@
             background-color: #de8419;  
             color: white;
             font-family: Arial, sans-serif;
+            margin: 20px;
+            margin-top: 20px; /*lisätty marginaali ylös*/
         }
         .header {
             background-image: url("https://cdn.pixabay.com/photo/2020/04/17/12/49/barista-5055060_1280.jpg");
@@ -17,18 +19,10 @@
             background-repeat: no-repeat;
             position: relative;
             background-size: cover;
-            height: 40em;
+            height: 30em;
             
         }
 
-        .header-text {
-            position: absolute;
-            top: 50%; /* Aseta 50% kuvan yläreunasta */
-            left: 100px; /* Aseta vasemmalta 10 pikseliä */
-            font-size: 48px; /* Aseta fonttikoko pikseleinä */
-            transform: translateY(-50%); /* Keskennä teksti suhteessa omaan korkeuteensa */
-            color: white;
-        }
 
         .button {
  
@@ -70,9 +64,16 @@
             padding: 20px;
             width: 30%;
         }
+
+        nav{
+            margin-top: 20px;
+
+        }
+        
         nav a{
             color: white;
             padding-left: 2%;
+           
             
         }
         img{
@@ -85,15 +86,12 @@
 <body>
     <div class="buttons">
     <div class="header">
-    <div class ="header-text">
-        <h1>Juhlat ja kokoukset</h1>
-      </div>
     </div>
     </div>
     <nav>
         <a href="index.html" class="button">Etusivu</a>
         <a href="menu.html" class="button">Menu</a>
-        <a href="huhlatjakokoukset.html" class="button">Juhlat ja kokoukset</a>
+        <a href="juhlatjakokoukset.html" class="button">Juhlat ja kokoukset</a>
         <a href="yhteystiedot.html" class="button">Yhteystiedot</a>
     </nav>
     <section class="row">
@@ -109,9 +107,10 @@
             <h2>Räätälöityjä ratkaisuja pöytiin tarjoiltuna.</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Vestibulum quis vestibulum leo, a dictum ante. Praesent cursus lectus lorem, et egestas turpis dictum a. Nam congue blandit urna pellentesque placerat. Mauris elementum ipsum in erat aliquam condimentum. Morbi varius feugiat ullamcorper.</p>
         </article>
-        <article class="col-lg-6">
-            <img src="https://cdn.pixabay.com/photo/2013/12/31/21/47/restaurant-237060_1280.jpg" alt="">
-        </article>
+        <div class="col-lg-6">
+            <img src="https://cdn.pixabay.com/photo/2013/12/31/21/47/restaurant-237060_1280.jpg" alt="Kuva ravintolasta sisältä">
+        </div>
+    </section>
        
         
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
