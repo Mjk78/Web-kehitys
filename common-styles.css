@@ -28,7 +28,6 @@ body { /* asetukset koko sivulle*/
   main { /* pääsisällön tyyli*/
  
     display: flex;
- 
     justify-content: column;
     align-items: center;
     margin: 20px;
@@ -43,8 +42,8 @@ body { /* asetukset koko sivulle*/
   .buttons {
 
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: fex-start;
+    align-items: flex-start;
     
  
   }
