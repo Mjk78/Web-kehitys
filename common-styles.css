@@ -1,4 +1,5 @@
-body { /* asetukset koko sivulle*/
+body { 
+    /* asetukset koko sivulle*/
 
     font-family: Arial, sans-serif;
      margin: 0;
@@ -28,8 +29,7 @@ body { /* asetukset koko sivulle*/
   main { /* pääsisällön tyyli*/
  
     display: flex;
- 
-    justify-content: column;
+    flex-direction: column;
     align-items: center;
     margin: 20px;
  
@@ -43,8 +43,8 @@ body { /* asetukset koko sivulle*/
   .buttons {
 
     display: flex;
-    justify-content: left;
-    align-items: left;
+    justify-content: flex-start;
+    align-items: flex-start;
     
  
   }
