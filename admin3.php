@@ -12,9 +12,7 @@ if (!isset($_SESSION['logged_in']) || $_SESSION['logged_in'] !== true) {
 
     exit;
 
-}
-
- 
+} 
 
 // Tarkistaa, onko käyttäjä painanut kirjaudu ulos -painiketta
 
@@ -35,12 +33,10 @@ if (isset($_GET['logout'])) {
     exit;
 
 }
-
  
 
 // Tässä voit koodata toiminnallisuuden, joka käsittelee vieraskirjan tietoja
 
- 
 
 // Esimerkki: tulosta vieraskirjan tiedot
 
@@ -61,8 +57,6 @@ if (isset($_SESSION['guestbook_data'])) {
 }
 
 ?>
-
- 
 
 <!-- Lisää kirjaudu ulos -painike -->
 
