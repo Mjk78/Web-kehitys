@@ -15,13 +15,9 @@
 
         <input type="text" name="kayttajatunnus" required><br>
 
- 
-
         <label for="salasana">Salasana:</label>
 
         <input type="password" name="salasana" required><br>
-
- 
 
         <input type="submit" value="Kirjaudu">
 
