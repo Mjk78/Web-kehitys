@@ -2,8 +2,6 @@
 
 session_start();
 
- 
-
 // Tarkista, onko lomakkeen tiedot lähetetty
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -12,7 +10,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $salasana = $_POST["salasana"];
 
- 
 
     // Tarkista, ovatko käyttäjätunnus ja salasana oikein (esimerkki)
 
@@ -24,21 +21,26 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         exit();
 
-    }else {
-        //Jos käyttäjätunnus tai salasana on väärä, näytä virheviesti
-        $_SESSION['virheviesti'] ="Virheellinen käyttäjätunnus ja salasana.";
-        header("Location: kirjaudu.html"); //Ohjaa takaisin kirjautumis sivulle
-        exit();
     }
 
+else {
 
-} else {
+header("Location: kirjaudu.html");
 
-    // Jos ei ole POST-pyyntöä, siirry takaisin kirjautumissivulle
+// Siirry takaisin kirjautumissivulle, jos kirjautuminen epäonnistui
 
-    header("Location: kirjaudu.html");
+exit();
 
-    exit();
+  }
+}
+
+else {
+
+// Jos ei ole POST-pyyntöä, siirry takaisin kirjautumissivulle
+
+header("Location: kirjaudu.html");
+
+exit();
 
 }
 
