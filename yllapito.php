@@ -20,17 +20,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         $_SESSION['kirjautunut'] = true;
 
-        header("Location: admin3.php"); // Siirry ylläpitosivulle, jos kirjautuminen onnistui
+        header("Location: admin3.php");
 
         exit();
 
-    }else {
-        //Jos käyttäjätunnus tai salasana on väärä, näytä virheviesti
-        $_SESSION['virheviesti'] ="Virheellinen käyttäjätunnus ja salasana.";
-        header("Location: kirjaudu.html"); //Ohjaa takaisin kirjautumis sivulle
+    } else {
+
+        header("Location: kirjaudu.html");
+
         exit();
+
     }
-
 
 } else {
 
