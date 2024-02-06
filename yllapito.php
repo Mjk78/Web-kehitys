@@ -2,8 +2,6 @@
 
 session_start();
 
- 
-
 // Tarkista, onko lomakkeen tiedot lähetetty
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -11,8 +9,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $kayttajatunnus = $_POST["kayttajatunnus"];
 
     $salasana = $_POST["salasana"];
-
- 
 
     // Tarkista, ovatko käyttäjätunnus ja salasana oikein (esimerkki)
 
